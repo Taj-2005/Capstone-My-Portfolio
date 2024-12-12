@@ -235,15 +235,3 @@
     #contact a:hover{
         color: white;
     }
-    @media only screen and (max-width:750px){
-        .links h4{
-            display: none;
-        }
-        .links i{
-            display: block;
-            font-size: 4vw;
-        }
-        .links{
-            padding-right: 0;
-        }
-    } 
