@@ -43,16 +43,20 @@
     .main1 h1{
         font-family: 'DotGothic16';
         text-align: center;
-        padding: 10% 0;
+        padding: 3% 0;
         padding-bottom: 0;
         margin-bottom: 0;
         font-size: 13vh;
         font-weight: 10;
     }
+    .portflex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .portfolio{
         border-radius: 10vh;
         width: 90%;
-        padding:0 5%;
     }
     .projects{
         padding: 10vh;
