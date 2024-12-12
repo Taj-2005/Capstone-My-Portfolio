@@ -73,3 +73,38 @@
         font-family: 'Archivo';
         line-height: 3vh;
     }
+    .flexabout-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'DotGothic16';
+        font-size: 5vh;
+        text-align: center;
+        padding: 20vh;
+        font-weight: 10;
+    }
+    .flexabout-b{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .do{
+        font-family: 'DotGothic16';
+        font-size: 3vh;
+        font-weight: 100;
+    }
+    .dos{
+        display: grid;
+        font-family: 'Archivo';
+        color:rgb(71, 71, 71);
+        font-weight: 100;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,5vh);
+        column-gap: 30vh;
+        row-gap: 0;
+        line-height: 1px;
+        font-weight: 10;
+        font-size: 2vh;
+        padding-right: 10vh;
+    }
