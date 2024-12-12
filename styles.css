@@ -80,7 +80,6 @@
         font-family: 'DotGothic16';
         font-size: 5vh;
         text-align: center;
-        padding: 20vh;
         font-weight: 10;
     }
     .flexabout-b{
@@ -88,6 +87,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 10vh;
     }
     .do{
         font-family: 'DotGothic16';
