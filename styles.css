@@ -72,9 +72,10 @@
     #projects{
         padding-top: 15vh;
         padding-bottom: 10vh;
-        overflow: hidden;
+        overflow-x: auto;
         width: 100%;
         display: grid;
+        justify-content: flex-start;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
     }
@@ -114,10 +115,10 @@
         color:rgb(71, 71, 71);
         font-weight: 100;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(5,5vh);
-        column-gap: 30vh;
+        grid-template-rows: repeat(5,1fr);
+        column-gap: normal;
         row-gap: 0;
-        line-height: 1px;
+        line-height: 2vh;
         font-weight: 10;
         font-size: 2vh;
         padding-right: 10vh;
@@ -132,11 +133,10 @@
     }
     .profiles{
         display: flex;
-        overflow: auto;
+        overflow-x: auto;
         scroll-behavior: smooth;
         width: 100%;
-        justify-content: center;
-        padding-left: 5%;
+        justify-content: flex-start;
     }
     .card{
         padding: 2vh;
@@ -235,3 +235,15 @@
     #contact a:hover{
         color: white;
     }
+    @media only screen and (max-width:750px){
+        .links h4{
+            display: none;
+        }
+        .links i{
+            display: block;
+            font-size: 4vw;
+        }
+        .links{
+            padding-right: 0;
+        }
+    } 
