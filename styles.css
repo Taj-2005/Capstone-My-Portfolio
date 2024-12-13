@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 350px) {
+@media (max-width: 600px) {
     html{
         scroll-behavior: smooth;
     }
@@ -238,7 +238,7 @@
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 350px) and (max-width:768px) {
+@media (min-width: 600px) and (max-width:768px) {
     html{
         scroll-behavior: smooth;
     }
