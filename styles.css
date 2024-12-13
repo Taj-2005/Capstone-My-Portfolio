@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     html{
         scroll-behavior: smooth;
     }
@@ -238,7 +238,7 @@
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) and (max-width:768px) {
     html{
         scroll-behavior: smooth;
     }
@@ -473,7 +473,7 @@
     }
 }
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     html{
         scroll-behavior: smooth;
     }
@@ -724,7 +724,7 @@
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) and (max-width:1200px) {
     html{
         scroll-behavior: smooth;
     }
@@ -801,6 +801,7 @@
         padding-bottom: 7vh;
         width: 100%;
         display: grid;
+        overflow: auto;
         justify-content: flex-start;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
@@ -823,7 +824,7 @@
         justify-content: center;
         align-items: center;
         font-family: 'DotGothic16';
-        font-size: 5vh;
+        font-size: 3vh;
         text-align: center;
         font-weight: 10;
     }
@@ -839,7 +840,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        column-gap: 80vh; /* Adjust spacing between the columns */
+        column-gap: 10vh; /* Adjust spacing between the columns */
         text-align: left;
     }
     
@@ -853,7 +854,7 @@
     .right-column {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 10vh;
+        column-gap: 5vh;
     }
     
     .right-column div {
@@ -976,7 +977,7 @@
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width:1200px){
+@media (min-width:1200px){
     html{
         scroll-behavior: smooth;
     }
@@ -1092,7 +1093,7 @@
     .container {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        column-gap: 80vh; /* Adjust spacing between the columns */
+        column-gap: 60vh; /* Adjust spacing between the columns */
         text-align: left;
     }
     
