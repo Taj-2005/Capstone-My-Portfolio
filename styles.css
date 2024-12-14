@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+@media (max-width: 550px) {
     html{
         scroll-behavior: smooth;
     }
@@ -63,13 +63,14 @@
         padding-bottom: 2vh;
         width: 100%;
         display: grid;
-        justify-content: flex-start;
-        grid-template-columns:22vh 22vh;
-        grid-template-rows: 13vh 13vh 13vh 13vh 13vh;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns:repeat(2,30vh);
+        grid-template-rows:auto;
     }
     #projects img{
-        width: 12vh;
-        height: 7vh;
+        width: 20vh;
+        height: 12vh;
         transition:box-shadow 1s;
     }
     #projects img:hover{
@@ -238,7 +239,7 @@
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) and (max-width:768px) {
+@media (min-width: 550px) and (max-width:768px) {
     html{
         scroll-behavior: smooth;
     }
@@ -300,7 +301,7 @@
         padding-bottom: 7vh;
         width: 100%;
         display: grid;
-        justify-content: flex-start;
+        justify-content: center;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(5,1fr);
     }
@@ -550,7 +551,7 @@
         padding-bottom: 7vh;
         width: 100%;
         display: grid;
-        justify-content: flex-start;
+        justify-content: center;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
     }
@@ -802,7 +803,7 @@
         width: 100%;
         display: grid;
         overflow: auto;
-        justify-content: flex-start;
+        justify-content: center;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
     }
@@ -1055,7 +1056,7 @@
         overflow-x: auto;
         width: 100%;
         display: grid;
-        justify-content: flex-start;
+        justify-content:center;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(3,1fr);
     }
