@@ -23,7 +23,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    nav h2{
+    nav h2 a{
+        text-decoration: none;
+        color: black;
         font-size: 3vh;
         font-weight: 100;
         margin-left: 2vh;
@@ -275,7 +277,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    nav h2{
+    nav h2 a{
+        text-decoration: none;
+        color: black;
         font-size: 4vh;
         font-weight: 100;
         margin-left: 4vh;
@@ -519,7 +523,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    nav h2{
+    nav h2 a{
+        text-decoration: none;
+        color: black;
         font-size: 5vh;
         font-weight: 100;
         margin-left: 4vh;
@@ -799,7 +805,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    nav h2{
+    nav h2 a{
+        text-decoration: none;
+        color: black;
         font-size: 4vh;
         font-weight: 100;
         margin-left: 4vh;
@@ -1081,7 +1089,9 @@
         align-items: center;
         justify-content: space-between;
     }
-    nav h2{
+    nav h2 a{
+        text-decoration: none;
+        color: black;
         font-size: 5vh;
         font-weight: 10;
         padding-left: 4vh;
