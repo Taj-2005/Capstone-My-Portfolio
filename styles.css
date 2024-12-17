@@ -152,7 +152,7 @@
     }
     .profiles{
         display: flex;
-        overflow-x: auto;
+        overflow-x: scroll;
         scroll-behavior: smooth;
         width: 100%;
         justify-content: flex-start;
