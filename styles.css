@@ -217,6 +217,7 @@
         padding-left: 1vh;
     }
     #footer{
+        align-items: end;
         padding-top: 20vw;
         display: flex;
         width: 95%;
@@ -465,6 +466,7 @@
         padding-left: 1vh;
     }
     #footer{
+        align-items: end;
         padding-top: 10vw;
         display: flex;
         width: 95%;
@@ -748,6 +750,7 @@
         padding-left: 1vh;
     }
     #footer{
+        align-items: end;
         padding-top: 15vh;
         display: flex;
         width: 95%;
@@ -1033,6 +1036,7 @@
         padding-left: 1vh;
     }
     #footer{
+        align-items: end;
         padding-top: 15vh;
         display: flex;
         width: 95%;
@@ -1318,6 +1322,7 @@
         padding-left: 1vh;
     }
     #footer{
+        align-items: end;
         padding-top: 15vh;
         display: flex;
         width: 95%;
