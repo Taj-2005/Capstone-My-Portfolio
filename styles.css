@@ -322,7 +322,7 @@
         width: 100%;
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,50vw);
         grid-template-rows: repeat(5,1fr);
     }
     
@@ -334,7 +334,7 @@
         justify-self: end;
     }
     #projects img{
-        width: 40vw;
+        width: 41vw;
         height: 25vw;
         transition:box-shadow 1s;
     }
@@ -583,11 +583,11 @@
         width: 100%;
         display: grid;
         justify-content: center;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,33vw);
         grid-template-rows: repeat(3,1fr);
     }
     #projects img{
-        width: 26vw;
+        width: 27vw;
         height: 17vw;
         transition:box-shadow 1s;
     }
@@ -866,7 +866,7 @@
         display: grid;
         overflow: auto;
         justify-content: center;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,33vw);
         grid-template-rows: repeat(3,1fr);
     }
     #projects > *:nth-child(1) {
@@ -898,7 +898,7 @@
         justify-self: end;
     }
     #projects img{
-        width: 26vw;
+        width: 27vw;
         height: 17vw;
         transition:box-shadow 1s;
     }
@@ -1150,7 +1150,7 @@
         width: 100%;
         display: grid;
         justify-content:center;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3,33vw);
         grid-template-rows: repeat(3,1fr);
     }
     #projects > *:nth-child(1) {
@@ -1182,7 +1182,7 @@
         justify-self: end;
     }
     #projects img{
-        width: 26vw;
+        width: 29vw;
         height: 17vw;
         transition:box-shadow 1s;
     }
