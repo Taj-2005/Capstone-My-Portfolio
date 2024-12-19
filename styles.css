@@ -1267,7 +1267,7 @@
     }
 
     .testimonial-card {
-        width: auto;
+        width:30vh;
         height: auto;
         display: flex;
         border: 0.2vh solid black;
