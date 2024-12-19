@@ -1260,7 +1260,9 @@
         overflow-x: auto;
         scroll-behavior: smooth;
         width: 100%;
+        height: auto;
         justify-content: flex-start;
+        box-shadow: inset -30px 0 30px rgba(255, 255, 255, 1);
     }
     .card{
         padding: 2vh;
@@ -1312,6 +1314,7 @@
     }
     
     .testimonial-text {
+        text-align: start;
         margin-left: -4vw;
         font-size: 2vh;
         color: #333;
