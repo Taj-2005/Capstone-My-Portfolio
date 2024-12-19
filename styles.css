@@ -207,6 +207,7 @@
     }
     
     .testimonial-text {
+        text-align: start;
         margin-left: -4vw;
         font-size: 2vh;
         color: #333;
@@ -456,6 +457,7 @@
     }
     
     .testimonial-text {
+        text-align: start;
         margin-left: -4vw;
         font-size: 2vh;
         color: #333;
@@ -740,6 +742,7 @@
     }
     
     .testimonial-text {
+        text-align: start;
         margin-left: -4vw;
         font-size: 2vh;
         color: #333;
@@ -1026,6 +1029,7 @@
     }
     
     .testimonial-text {
+        text-align: start;
         margin-left: -4vw;
         font-size: 2vh;
         color: #333;
