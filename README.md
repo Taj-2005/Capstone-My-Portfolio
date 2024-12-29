@@ -1,7 +1,7 @@
 # Portfolio Website - README
 
 ## Hosted URL
-[https://capstone-taj.vercel.app/](https://capstone-taj.vercel.app/) 🌐
+[Hosted URL](https://capstone-taj.vercel.app/) 🌐
 
 ---
 
